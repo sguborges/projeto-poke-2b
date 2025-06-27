@@ -1,18 +1,23 @@
-div {
+.Home {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: antiquewhite;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: red;
     width: 500px;
-    height: 500px;
+    height: 900px;
     justify-content: space-around;
-    align-items: end;
+    align-items: center;
     overflow: auto;
 }
 
 img {
     width: 100px;
     height: 80px;
-    margin: 10px;
-    border-radius: 50%;
+}
+
+
+.home-background {
+  background-color: #dc3545; /* vermelho Bootstrap (danger) */
+  min-height: 100vh;
+  padding: 20px 0;
 }

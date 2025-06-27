@@ -5,12 +5,7 @@ import './PokeGrid.css'
 const PokeGrid = () => {
     return (
         <div className="PokeGrid">
-            <img src={poke}/>
-            <img src={eevee}/>
-            <img src={poke}/>
-            <img src={eevee}/>
-            <img src={poke}/>
-            <img src={eevee}/>
+            <h1>PokeGrid</h1>
             <img src={poke}/>
             <img src={eevee}/>
             <img src={poke}/>
@@ -21,4 +16,4 @@ const PokeGrid = () => {
     )
 }
 
-export default PokeGrid
+export default PokeGrid;

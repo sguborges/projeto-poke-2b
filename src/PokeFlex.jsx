@@ -5,12 +5,7 @@ import './PokeFlex.css'
 const PokeFlex = () => {
     return (
         <div className="PokeFlex">
-            <img src={poke}/>
-            <img src={eevee}/>
-            <img src={poke}/>
-            <img src={eevee}/>
-            <img src={poke}/>
-            <img src={eevee}/>
+            <h1>PokeFlex</h1>
             <img src={poke}/>
             <img src={eevee}/>
             <img src={poke}/>
@@ -21,4 +16,4 @@ const PokeFlex = () => {
     )
 }
 
-export default PokeFlex
+export default PokeFlex;
